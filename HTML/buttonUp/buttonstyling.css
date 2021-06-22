@@ -1,0 +1,30 @@
+#search {
+    color:#44AFB1;
+    border-radius: #F5F5F5;
+    border-color: #119B9D;
+    border: 2px solid #119B9D;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 45px;
+    border-radius: 15px;
+}
+
+#addbutton {
+    color: #FFFFFF;
+    background-color: #00D1B2;
+    border: 2px solid #00D1B2;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 3px 10px;
+    border-radius: 25px;
+}
+
+
+#createbutton {
+    color: #FFFFFF;
+    background-color: #2B78E4;
+    border: 3px solid #000000;
+    box-shadow: 3px 5px 1px #000000;
+    padding: 10px 25px;
+    font-size: 18px;
+}
