@@ -1,0 +1,36 @@
+.cyan {
+    color:#00FFFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.white {
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.black {
+    background-color:#000000;
+}
+
+.purple {
+    background-color:#663399;
+    color:#FFFEFF;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.lightBlue {
+    background-color:#9FC5F8;
+    color:#565E95;
+    text-align: right;
+}
+
+
+
+h3 {
+text-decoration: underline;
+}
