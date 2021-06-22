@@ -1,0 +1,22 @@
+.background {
+    background-color: #025291;
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+}
+
+.vertical {
+    background-color: #F6C600;
+    width: 100px;
+    height: 450px; 
+    position: absolute;
+}
+
+.horizontal {
+    background-color: #F6C600;
+    width: 900px;
+    height: 100px; 
+    position: relative;
+}
+
+
