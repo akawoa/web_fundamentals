@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;;
+}
+
+ .row {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .col {
+    width: 100%;
+    border: 2px solid;
+    margin: 2px;
+    text-align: center;
+}
+
+ .col-2 {
+    width: 133%;
+    border: 2px solid;
+    margin: 2px;
+    text-align: center;
+ }
+
+ .col-3 {
+    width: 150%;
+    border: 2px solid;
+    margin: 2px;
+    text-align: center;
+ }
