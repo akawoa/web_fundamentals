@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dojo</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <span class="header-span">
+            <h1>DojoWeather</h1>
+        </span>
+        <span class="li-span">
+            <ul class="nav-list-element">
+                <li class="nav-li" onclick="alert('Weather for Burbank is already shown')">Burbank</li>
+                <li class="nav-li" onclick="alert('Weather for Chicago is unavailable')">Chicago</li>
+                <li class="nav-li" onclick="alert('Weather for Dallas is unavailable')">Dallas</li>
+            </ul>
+        </span>
+    </nav>
+    <div class="status-bar">
+        <span class="left-align">
+            <h3>San Jose</h3>
+        </span>
+        <span class="right-align">
+            <form class="font-14pt">
+                <label for="temperature" class="font-14pt">show temperature in:</label>
+                <select id="temperature" name="temperature" class="font-14pt">
+                    <option value="celsius" class="font-14pt">°C</option>
+                    <option value="fahrenheit" class="font-14pt">°F</option>
+                </select>
+            </form>
+            <form>
+        </span>
+    </div>
+    <div class="content">
+        <div class="col-1">
+            <span class="weather-title">
+                <p class="center-text" class="weather-title">Today</p>
+            </span>
+            <img src="assets\some_rain.png" alt="today-rain" class="img-circle"></img>
+            <span class="inline" class="weather">
+                <p class="weather" class="center-text">some rain</p>
+            </span>
+            <span class="inline">
+                <p class="high-temp">24°</p>
+                <p class="low-temp">18°</p>
+            </span>
+        </div>
+        <div class="col-2">
+            <span class="weather-title">
+                <p class="center-text" class="weather-title">Tomorrow</p>
+            </span>
+            <img src="assets\some_sun.png" alt="today-rain" class="img-circle"></img>
+            <span class="inline" class="weather">
+                <p class="weather" class="center-text" class="font-20pt">some sun</p>
+            </span>
+            <span class="inline">
+                <p class="high-temp">27°</p>
+                <p class="low-temp">19°</p>
+            </span>
+        </div>
+        <div class="col-3">
+            <span class="weather-title">
+                <p class="center-text" class="weather-title">Friday</p>
+            </span>
+            <img src="assets\some_clouds.png" alt="today-rain" class="img-circle"></img>
+            <span class="inline" class="weather">
+                <p class="weather" class="center-text">some clouds</p>
+            </span>
+            <span class="inline">
+                <p class="high-temp">21°</p>
+                <p class="low-temp">16°</p>
+            </span>
+        </div>
+        <div class="col-4">
+            <span class="weather-title">
+                <p class="center-text" class="weather-title">Saturday</p>
+            </span>
+            <img src="assets\some_sun.png" alt="today-rain" class="img-circle"></img>
+            <span class="inline" class="weather">
+                <p class="weather" class="center-text">some sun</p>
+            </span>
+            <span class="inline">
+                <p class="high-temp">26°</p>
+                <p class="low-temp">21°</p>
+            </span>
+        </div>
+    </div>
+    <div class="cookies" id="cookies">
+        <img src="assets\cookie.png" alt="cookie-pic"></img>
+        <span>
+            <h4>Stop! Cookie Time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="https://en.wikipedia.org/wiki/HTTP_cookie">Read More</a></p>
+        </span>
+        <button class="btn" id="like-btn" onclick="eatCookies()">I Accept</button>
+
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
