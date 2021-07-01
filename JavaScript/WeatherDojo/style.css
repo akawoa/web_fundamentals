@@ -13,7 +13,7 @@ nav {
 }
 
 .status-bar {
-    height: 100px;
+    height: 50px;
     width: 70%;
     margin-left: 15%;
     display: flex;
